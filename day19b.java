@@ -1,7 +1,7 @@
 package Test3;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Set;
+
 
 public class day19b {
 
@@ -16,6 +16,9 @@ public class day19b {
 		
 		
 				for (Map.Entry<String, String> entry : course.entrySet()) {
+                                   System.out.println(entry.getKey() + entry.getValue());
+
+
 		}
 		
 		//program 2
